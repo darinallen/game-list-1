@@ -1,0 +1,7 @@
+.DS_Store
+*.log
+.next/
+.build/
+layout.md
+variables.env
+node_modules/
