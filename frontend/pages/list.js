@@ -1,11 +1,6 @@
-import Link from 'next/link';
-
-const List = props => (
+const List = () => (
   <div>
     <h1>List</h1>
-    <Link href="/">
-      <a>Home</a>
-    </Link>
   </div>
 );
 
