@@ -1,4 +1,19 @@
 type User {
   id: ID! @unique
   name: String!
+  email: String!
+}
+
+type Game {
+  id: ID! @unique
+  title: String!
+  description: String!
+  publisher: String
+  image: String
+  largeImage: String
+  metacritic: Float
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  # platforms: [Platform]!
+  # user: User!
 }
